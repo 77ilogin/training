@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="C:\myproject\commons-beanutils-1.9.2-src\target/apidocs/META-INF">
+    <fileset dir="C:\myproject\commons-beanutils-1.9.2-src">
+      <include name="LICENSE.txt"/>
+      <include name="NOTICE.txt"/>
+    </fileset>
+  </copy>
+</target>
+</project>
